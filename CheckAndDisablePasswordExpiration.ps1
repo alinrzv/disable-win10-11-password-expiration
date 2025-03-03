@@ -12,3 +12,6 @@ if ($passwordExpires) {
 } else {
     Write-Host "Password expiration is already disabled for $currentUser."
 }
+
+# Keep the window open for the user to see the results
+Read-Host -Prompt "Press Enter to exit"
